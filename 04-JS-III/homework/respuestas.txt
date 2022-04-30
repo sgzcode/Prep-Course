@@ -1,0 +1,2 @@
+Arrays: los arrays se utilizan para guardar más de un valor en una variable, pueden ser 
+        tipos de datos diferentes.
