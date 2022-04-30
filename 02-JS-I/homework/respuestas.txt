@@ -1,0 +1,15 @@
+Variables: una variable es como una caja vacia donde podemos guardar cosas que queramos.
+           En este caso de la programacion, podemos almacenar numeros, nombres, objetos, etc.
+
+Strings: un string es un tipo de dato dentro de la programación, para poder usar un string,
+         lo tenemos que hacer dentro de comillas simples o dobles. Todo lo que este dentro
+         de comillas, es un string.
+
+Funciones: una funcion es un conjunto de instrucciones al que le podemos dar valores que se llaman
+           argumentos, estos argumentos realizan una tarea que le indiquemos y devuelven un
+           resultado y lo retornamos con un return.
+
+Declaraciones: una declaración if, es para verificar algun dato que tengamos en nuestro programa.
+
+Valores Booleanos: los valores booleanos son el true y el false, estos valores te puede devolver
+                   un if si hacemos una comparacion.
