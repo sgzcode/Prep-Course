@@ -1,0 +1,9 @@
+For: el ciclo for se usa para recorrer o repetir instrucciones que nosotros le digamos.
+
+&&: este operador compara dos valores y si las dos son corectas, retorna true, si un valor
+    o los dos son negativos, retorna false.
+
+||: este operador compara dos valores y si el valor es correcto o los dos, retorna true, sino
+    retorna false.
+
+!: este operador retornara el valor opusto al que nos devolvio anteriormente.
