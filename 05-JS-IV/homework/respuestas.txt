@@ -1,0 +1,7 @@
+Objetos: Un objeto es una colleccion de propiedades, esas propiedades definen al objeto en si.
+
+Propiedades: Un propiedad es una asociacion de un nombre o (clave) y un valor que define al objeto.
+
+Metodos: un metodo es una funcion dentro de un objeto que seria su propiedad.
+
+For in: el bucle for in, itera la clave de un objeto y finaliza cuando haya recorrido todo.
