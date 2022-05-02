@@ -1,0 +1,3 @@
+Prototype: un prototype es por el cual un objeto hereda funciones o caracteristicas.
+
+Constructors: un constructor es una funcion que se rutiliza para construir nuevos objetos.
