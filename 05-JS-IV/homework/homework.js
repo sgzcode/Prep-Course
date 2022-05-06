@@ -8,9 +8,9 @@ function crearGato (nombre, edad) {
   // Tu código:
   const objeto = {
     nombre: nombre,
-    edad:  edad,
+    edad: edad,
     meow: function(){
-      return 'Meow!'
+      return 'Meow!';
     }
   }
   return objeto;
@@ -30,15 +30,15 @@ function invocarMetodo (objeto, metodo) {
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
   // Tu código:
-  return objeto[metodo]();
+  objeto[metodo]();
 }
 
 function multiplicarNumeroDesconocidoPorCinco (objetoMisterioso) {
   // "objetoMisterioso" tiene una propiedad llamada "numeroMisterioso"
   // Multiplica el numeroMisterioso por 5 y devuelve el producto
   // Tu código:
-  objetoMisterioso.numeroMisterioso = objetoMisterioso.numeroMisterioso * 5;
-  return objetoMisterioso.numeroMisterioso;
+  let resultado = objetoMisterioso.numeroMisterioso = objetoMisterioso.numeroMisterioso * 5;
+  return resultado;
 }
 
 function eliminarPropiedad (objeto, unaPropiedad) {
@@ -55,9 +55,9 @@ function nuevoUsuario (nombre, email, password) {
   // Devuelve el objeto
   // Tu código:
   const objeto = {
-    nombre,
-    email,
-    password
+    nombre: nombre,
+    email: email,
+    password: password
   }
   return objeto;
 }
@@ -66,11 +66,7 @@ function tieneEmail (usuario) {
   // Devuelve "true" si el usuario tiene un valor definido para la propiedad "email"
   // De lo contratio, devuelve "false"
   // Tu código:
-  if(usuario.email){
-    return true
-  } else {
-    return false
-  }
+  return usuario.email ? true : false;
 }
 
 function tienePropiedad (objeto, propiedad) {
@@ -78,11 +74,8 @@ function tienePropiedad (objeto, propiedad) {
   // "propiedad" es un string
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(objeto[propiedad]){
-    return true;
-  } else {
-    return false;
-  }
+  if (objeto[propiedad]) return true;
+  return false;
 }
 
 function verificarPassword (usuario, password) {
@@ -90,11 +83,7 @@ function verificarPassword (usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(usuario.password === password){
-    return true;
-  } else {
-    return false;
-  }
+  return usuario.password === password ? true : false;
 }
 
 function actualizarPassword (usuario, nuevaPassword) {
@@ -120,7 +109,7 @@ function pasarUsuarioAPremium (usuarios) {
   // Define cada propiedad "esPremium" de cada objeto como "true"
   // Devuelve el array de usuarios
   // Tu código:
-  for(let i = 0; i < usuarios.length; i++){
+  for (let i = 0; i < usuarios.length; i++){
     usuarios[i].esPremium = true;
   }
   return usuarios;
@@ -133,11 +122,11 @@ function sumarLikesDeUsuario (usuario) {
   // Suma todos los likes de todos los objetos "post"
   // Devuelve la suma
   // Tu código:
-  let resultado = 0;
-  for(let i = 0; i < usuario.posts.length; i++){
-    resultado = resultado + usuario.posts[i].likes;
+  let suma = 0;
+  for (let i = 0; i < usuario.posts.length; i++){
+    suma += usuario.posts[i].likes;
   }
-  return resultado;
+  return suma;
 }
 
 function agregarMetodoCalculoDescuento (producto) {
